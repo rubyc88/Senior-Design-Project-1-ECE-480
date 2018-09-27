@@ -1,0 +1,26 @@
+Version 4
+SymbolType CELL
+LINE Normal 0 48 0 -48
+LINE Normal 114 0 0 48
+LINE Normal 0 -48 113 0
+LINE Normal 128 0 113 0
+LINE Normal 0 -32 -16 -32
+LINE Normal 0 32 -16 32
+LINE Normal 48 -27 48 -48
+TEXT 8 32 Left 0 +
+TEXT 10 -33 Left 0 -
+TEXT 13 -8 Left 0 Ideal
+TEXT 68 -38 Left 0 VDD
+TEXT 11 6 Left 0 comp
+PIN -16 -32 NONE 8
+PINATTR PinName Vinm
+PINATTR SpiceOrder 1
+PIN -16 32 NONE 8
+PINATTR PinName Vinp
+PINATTR SpiceOrder 2
+PIN 128 0 NONE 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 3
+PIN 48 -48 NONE 8
+PINATTR PinName VDD
+PINATTR SpiceOrder 4

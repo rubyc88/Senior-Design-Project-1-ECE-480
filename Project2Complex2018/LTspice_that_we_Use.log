@@ -1,0 +1,86 @@
+Circuit: * C:\Users\rubyc\Google Drive\School\Fall 2018\Senior Design Project 1 ECE 480\Project2Complex2018\LTspice_that_we_Use.asc
+
+Ltrace: both pins shorted together -- ignoring.
+Lwire: both pins shorted together -- ignoring.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(x1:vinn)
+Ignoring empty pin current: Ix(x1:vinp)
+Ignoring empty pin current: Ix(x2:vinm)
+Ignoring empty pin current: Ix(x2:vinp)
+Ignoring empty pin current: Ix(x3:vinm)
+Ignoring empty pin current: Ix(x3:vinp)
+Ignoring empty pin current: Ix(u1:c)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u2:vgnd)
+Ignoring empty pin current: Ix(x8:_oe)
+Ignoring empty pin current: Ix(x4:_oe)
+Ignoring empty pin current: Ix(x5:_oe)
+Ignoring empty pin current: Ix(x6:_oe)
+Ignoring empty pin current: Ix(x1:vinn)
+Ignoring empty pin current: Ix(x1:vinp)
+Ignoring empty pin current: Ix(x2:vinm)
+Ignoring empty pin current: Ix(x2:vinp)
+Ignoring empty pin current: Ix(x3:vinm)
+Ignoring empty pin current: Ix(x3:vinp)
+Ignoring empty pin current: Ix(u1:c)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u2:vgnd)
+Ignoring empty pin current: Ix(x8:_oe)
+Ignoring empty pin current: Ix(x4:_oe)
+Ignoring empty pin current: Ix(x5:_oe)
+Ignoring empty pin current: Ix(x6:_oe)
+Heightened Def Con from 6.7e-005 to 6.7e-005
+Heightened Def Con from 0.001946 to 0.001946
+Heightened Def Con from 0.001967 to 0.001967
+N-Period=3
+Fourier components of V(vll,vlr)
+DC component:0.150287
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	1.188e+01	1.000e+00	  177.39°	    0.00°
+    2   	2.000e+03	3.606e-02	3.036e-03	  146.97°	  -30.41°
+    3   	3.000e+03	1.499e-02	1.261e-03	   70.99°	 -106.40°
+    4   	4.000e+03	7.823e-02	6.586e-03	  -60.21°	 -237.60°
+    5   	5.000e+03	7.292e-02	6.139e-03	    9.87°	 -167.52°
+Total Harmonic Distortion: 0.958459%(7.068658%)
+
+
+
+pout: AVG(v(vll,vlr)*i(rout))=8.86628 FROM 0 TO 0.002
+pin: AVG(12 *i(vsense))=10.4279 FROM 0 TO 0.002
+efficiency: pout/pin=0.850246
+ppout: PP(v(vll,vlr))=23.4069 FROM 0 TO 0.002
+ppin: PP(v(vin))=1 FROM 0 TO 0.002
+gain: ppout/ppin=23.4069
+p1: AVG(v(vol)*ix(m1:d)+v(vg1)*ix(m1:g))=0.619536 FROM 0 TO 0.002
+p2: AVG(v(vol)*ix(m2:d)+v(vg2)*ix(m2:g)+v(vsd)*ix(m2:s))=0.177583 FROM 0 TO 0.002
+p3: AVG(v(vor)*ix(m4:d)+v(vg4)*ix(m4:g)+v(vsd)*ix(m4:s))=0.170111 FROM 0 TO 0.002
+p4: AVG(v(vor)*ix(m3:d)+v(vg3)*ix(m3:g))=0.592081 FROM 0 TO 0.002
+bridge: p1+p2+p3+p4=1.55931
+
+
+Date: Thu Sep 20 16:21:07 2018
+Total elapsed time: 21.363 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 804437
+traniter = 804409
+tranpoints = 300744
+accept = 213770
+rejected = 86977
+matrix size = 147
+fillins = 25
+solver = Normal
+Thread vector: 18.6/16.5[2] 9.0/8.1[2] 2.7/2.5[1] 0.8/9.1[1]  2592/500
+Matrix Compiler1: 7.62 KB object code size  3.9/2.0/[1.1]
+Matrix Compiler2: 10.83 KB object code size  1.9/3.4/[1.3]
+

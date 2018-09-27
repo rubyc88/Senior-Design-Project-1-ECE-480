@@ -1,0 +1,55 @@
+Circuit: * C:\Users\rubyc\Google Drive\School\Fall 2018\Senior Design Project 1 ECE 480\Project2Complex2018\TristateWithInductorLoad.asc
+
+Ltrace: both pins shorted together -- ignoring.
+Lwire: both pins shorted together -- ignoring.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(x1:vinn)
+Ignoring empty pin current: Ix(x1:vinp)
+Ignoring empty pin current: Ix(x2:vinm)
+Ignoring empty pin current: Ix(x2:vinp)
+Ignoring empty pin current: Ix(x3:vinm)
+Ignoring empty pin current: Ix(x3:vinp)
+Ignoring empty pin current: Ix(u1:c)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u2:vgnd)
+Ignoring empty pin current: Ix(x8:_oe)
+Ignoring empty pin current: Ix(x4:_oe)
+Ignoring empty pin current: Ix(x5:_oe)
+Ignoring empty pin current: Ix(x6:_oe)
+Ignoring empty pin current: Ix(x1:vinn)
+Ignoring empty pin current: Ix(x1:vinp)
+Ignoring empty pin current: Ix(x2:vinm)
+Ignoring empty pin current: Ix(x2:vinp)
+Ignoring empty pin current: Ix(x3:vinm)
+Ignoring empty pin current: Ix(x3:vinp)
+Ignoring empty pin current: Ix(u1:c)
+Ignoring empty pin current: Ix(u1:vcc)
+Ignoring empty pin current: Ix(u1:vgnd)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u2:vcc)
+Ignoring empty pin current: Ix(u2:vgnd)
+Ignoring empty pin current: Ix(x8:_oe)
+Ignoring empty pin current: Ix(x4:_oe)
+Ignoring empty pin current: Ix(x5:_oe)
+Ignoring empty pin current: Ix(x6:_oe)
+Heightened Def Con from 6e-006 ++to 6e-006
+Heightened Def Con from 6e-006 to 6.005e-006
+Heightened Def Con from 0.000292 to 0.000292002
+Heightened Def Con from 0.00034 to 0.00034
+Heightened Def Con from 0.00034 to 0.00034
+Heightened Def Con from 0.000366 to 0.000366
+Heightened Def Con from 0.000366 to 0.000366002
+Heightened Def Con from 0.000432 to 0.000432
+Heightened Def Con from 0.000432 to 0.000432002
+Heightened Def Con from 0.000446 to 0.000446002
+Heightened Def Con from 0.000448 to 0.000448002
+Heightened Def Con from 0.000462 to 0.000462
+Heightened Def Con from 0.000462 to 0.000462002
+Heightened Def Con from 0.00047 +to 0.00047
+Heightened Def Con from 0.00047 to 0.000470002
+Heightened Def Con from 0.000476 to 0.000476
+Heightened Def Con from 0.000476 to 0.000476002
+Heightened Def Con from 0.00048 to 0.00048
